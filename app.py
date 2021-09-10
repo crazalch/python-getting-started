@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    msg = 'Hello World foo!'
+    msg = 'foo!'
     return msg
 
 def attach():
